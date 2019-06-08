@@ -11,7 +11,6 @@ class StockContainer extends Component {
       </div>
     );
   }
-
 }
 
 export default StockContainer;

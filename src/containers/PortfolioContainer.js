@@ -10,13 +10,10 @@ class PortfolioContainer extends Component {
     return (
       <div>
         <h2>My Portfolio</h2>
-          {this.props.displayBoughtStocks.map(stock => <Stock stock={stock} tradeStock={this.props.tradeStock}/>)
-            //render your portfolio stocks here
-          }
+          {this.props.displayBoughtStocks.map(stock => <Stock stock={stock} tradeStock={this.props.tradeStock}/>)}
       </div>
     );
   }
-
 }
 
 export default PortfolioContainer;
