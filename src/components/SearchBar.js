@@ -7,6 +7,7 @@ const SearchBar = () => {
       <strong>Sort by:</strong>
       <label>
         <input type="radio" value="Alphabetically" checked={null} onChange={null}/>
+        
         Alphabetically
       </label>
       <label>
