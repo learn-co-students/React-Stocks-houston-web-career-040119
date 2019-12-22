@@ -2,18 +2,18 @@ import React, { Component } from 'react';
 import Stock from '../components/Stock'
 
 class PortfolioContainer extends Component {
+  constructor() {
+    super()
+  }
 
   render() {
     return (
       <div>
         <h2>My Portfolio</h2>
-          {
-            //render your portfolio stocks here
-          }
+          {this.props.displayBoughtStocks.map(stock => <Stock stock={stock} tradeStock={this.props.tradeStock}/>)}
       </div>
     );
   }
-
 }
 
 export default PortfolioContainer;
