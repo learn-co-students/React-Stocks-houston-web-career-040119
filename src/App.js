@@ -3,11 +3,11 @@ import Header from './components/Header'
 import MainContainer from './containers/MainContainer'
 
 class App extends Component {
-  render() {
+render() {
     return (
       <div>
         <Header/>
-        <MainContainer/>
+        <MainContainer />
       </div>
     );
   }
